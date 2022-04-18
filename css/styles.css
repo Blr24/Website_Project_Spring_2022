@@ -4507,7 +4507,7 @@ textarea.form-control-lg {
   color: rgba(0, 0, 0, 0.55);
 }
 .navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link:focus {
-  color: rgba(0, 0, 0, 0.7);
+  color: rgba(7, 3, 60, 0.7);
 }
 .navbar-light .navbar-nav .nav-link.disabled {
   color: rgba(0, 0, 0, 0.3);
@@ -4542,14 +4542,14 @@ textarea.form-control-lg {
   color: rgba(255, 255, 255, 0.55);
 }
 .navbar-dark .navbar-nav .nav-link:hover, .navbar-dark .navbar-nav .nav-link:focus {
-  color: rgba(255, 255, 255, 0.75);
+  color: rgba(255, 255, 255, 0.75); font-size:large;
 }
 .navbar-dark .navbar-nav .nav-link.disabled {
   color: rgba(255, 255, 255, 0.25);
 }
 .navbar-dark .navbar-nav .show > .nav-link,
 .navbar-dark .navbar-nav .nav-link.active {
-  color: #fff;
+  color: #fff; font-size:larger;
 }
 .navbar-dark .navbar-toggler {
   color: rgba(255, 255, 255, 0.55);
@@ -7868,7 +7868,7 @@ textarea.form-control-lg {
 
 .bg-primary {
   --bs-bg-opacity: 1;
-  background-color: rgba(var(--georgetown-blue-rgb), var(--bs-bg-opacity)) !important;
+  background-color: rgba(var(--georgetown-light-grey-rgb), var(--bs-bg-opacity)) !important;
 }
 
 .bg-secondary {
@@ -11422,7 +11422,7 @@ p.lead {
   #sideNav .navbar-brand .img-profile {
     max-width: 10rem;
     max-height: 10rem;
-    border: 0.5rem solid var(--georgetown-grey);
+    border: 0.5rem solid var(#fff);
   }
   #sideNav .navbar-collapse {
     display: flex;
@@ -11448,7 +11448,7 @@ p.lead {
   justify-content: center;
   height: 3.5rem;
   width: 3.5rem;
-  background-color: #495057;
+  background-color: #D6D2C4;
   color: #fff;
   border-radius: 100%;
   font-size: 1.5rem;
