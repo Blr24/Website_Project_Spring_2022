@@ -1,1 +1,3 @@
-# Website_Project_Spring_2022
+# Academic Resume Website
+
+Adapted from the [Resume Theme](https://startbootstrap.com/previews/resume) by Start Bootstrap.
